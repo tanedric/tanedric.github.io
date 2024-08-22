@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%);
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: inline-block;
+    background-color: #f7f8f9;
+    padding: 10px 30px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #444;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Menu Styles */
+nav {
+    background-color: #444;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: #e2ebf0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #cfd9df;
+}
+
+/* Additional Background for Sections */
+section {
+    background-color: #f7f8f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7f8f9;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Carousel Slide */
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide p {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Carousel Navigation Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(68, 68, 68, 0.7); /* Slightly translucent dark gray */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(68, 68, 68, 0.9);
+}
+
+/* Section Title Styling */
+#gallery h2 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.interactive-card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interactive-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #db7093;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #c6537a;
+}
